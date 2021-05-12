@@ -1,5 +1,8 @@
-answer = 10
-guess = 2
+import random
+answer = random.randint(1, 10)
+guess = int(input('What value do you think is the real one?'))
+
+print(answer)
 
 if guess < answer:
     result = "Oops!  Your guess was too low."

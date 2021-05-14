@@ -8,10 +8,10 @@ if guess > 10:
 else:
     if guess < answer:
         result = "Oops! Your guess was too low. \nThe number thought was: {}".format(
-        answer)
+            answer)
     elif guess > answer:
         result = "Oops! Your guess was too high. \nThe number thought was: {}".format(
-        answer)
+            answer)
     elif guess == answer:
         result = "Nice! Your guess matched the answer!"
 

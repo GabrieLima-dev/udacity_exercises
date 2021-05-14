@@ -1,5 +1,5 @@
 state = 'CA', 'MN', 'NY'
-question_state = input("What's your status? \n(CA, MN, NY) \n")
+question_state = input("What's your status? \n(CA, MN, NY) \n").strip().upper()
 purchase_amount = float(input("Purchase amount: "))
 
 if question_state == state[0]:
